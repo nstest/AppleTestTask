@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="10928" started-at="2018-06-13T21:57:05Z" finished-at="2018-06-13T21:57:15Z">
+    <groups>
+      <group name="regression">
+        <method signature="AddCustomerTest.addExistingCustomer()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="addExistingCustomer" class="com.test.task.QETestTask.AddCustomerTest"/>
+        <method signature="AddCustomerTest.addNewCustomer()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="addNewCustomer" class="com.test.task.QETestTask.AddCustomerTest"/>
+        <method signature="UpdateCustomerTest.updateExistingCustomer()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="updateExistingCustomer" class="com.test.task.QETestTask.UpdateCustomerTest"/>
+        <method signature="UpdateCustomerTest.updateNonExistingCustomer()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="updateNonExistingCustomer" class="com.test.task.QETestTask.UpdateCustomerTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test Task" duration-ms="10928" started-at="2018-06-13T21:57:05Z" finished-at="2018-06-13T21:57:15Z">
+      <class name="com.test.task.QETestTask.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="setUp" is-config="true" duration-ms="3328" started-at="2018-06-13T14:57:05Z" finished-at="2018-06-13T14:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addExistingCustomer()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="addExistingCustomer" duration-ms="1403" started-at="2018-06-13T14:57:08Z" finished-at="2018-06-13T14:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExistingCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-06-13T14:57:09Z" finished-at="2018-06-13T14:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="setUp" is-config="true" duration-ms="1301" started-at="2018-06-13T14:57:09Z" finished-at="2018-06-13T14:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="addNewCustomer" duration-ms="848" started-at="2018-06-13T14:57:11Z" finished-at="2018-06-13T14:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.task.QETestTask.AddCustomerTest@ff23ae7]" name="tearDown" is-config="true" duration-ms="82" started-at="2018-06-13T14:57:12Z" finished-at="2018-06-13T14:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.task.QETestTask.AddCustomerTest -->
+      <class name="com.test.task.QETestTask.UpdateCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="setUp" is-config="true" duration-ms="976" started-at="2018-06-13T14:57:12Z" finished-at="2018-06-13T14:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateExistingCustomer()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="updateExistingCustomer" duration-ms="786" started-at="2018-06-13T14:57:13Z" finished-at="2018-06-13T14:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-06-13T14:57:13Z" finished-at="2018-06-13T14:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="setUp" is-config="true" duration-ms="1020" started-at="2018-06-13T14:57:14Z" finished-at="2018-06-13T14:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateNonExistingCustomer()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="updateNonExistingCustomer" duration-ms="835" started-at="2018-06-13T14:57:15Z" finished-at="2018-06-13T14:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNonExistingCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.task.QETestTask.UpdateCustomerTest@423b2b62]" name="tearDown" is-config="true" duration-ms="78" started-at="2018-06-13T14:57:15Z" finished-at="2018-06-13T14:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.task.QETestTask.UpdateCustomerTest -->
+    </test> <!-- Test Task -->
+  </suite> <!-- TestSuite -->
+</testng-results>

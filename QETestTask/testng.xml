@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" verbose="1">
+	<test name="Test Task">
+		<classes>
+			<class name="com.test.task.QETestTask.AddCustomerTest" />
+			<class name="com.test.task.QETestTask.UpdateCustomerTest" />
+		</classes>
+	</test>
+</suite>
